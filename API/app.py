@@ -20,6 +20,11 @@ def get_superheroes_marvel():
     rows = ["Spider-Man", "Iron Man", "Thor", "Hulk", "Black Widow", "Doctor Strange", "Black Panther", "Captain America"]
     return rows
 
+@app.get("/CursosPlatzi")
+def get_cursos();
+    rows = ["Pene.com"]
+    return rows
+
 @app.get("/LOTRWarriors")
 def get_lotr_warriors():
     rows = ["Frodo", "Sam", "Gandalf", "Aragorn", "Legolas", "Gimli", "Boromir", "Gollum", "El anillo"]
